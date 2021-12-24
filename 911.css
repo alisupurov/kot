@@ -1,0 +1,267 @@
+.header .head, .header .tel, .header .tel_nad {
+  position: absolute;
+  color: white;
+  font-family: 'Montserrat', sans-serif; }
+
+body {
+  width: 1440px;
+  height: 2056px;
+  min-width: 1180px;
+  margin: 0px auto; }
+
+.header {
+  background-image: url(https://raw.githubusercontent.com/Demonoflight/intense_it/main/headcat.png);
+  width: 1440px;
+  height: 252px;
+  position: relative; }
+  .header h1 {
+    color: white;
+    position: absolute;
+    top: 140px;
+    left: 128px;
+    font-size: 38px;
+    font-family: 'Montserrat', sans-serif; }
+  .header .head {
+    color: #aaa9a9;
+    font-size: 18px;
+    word-spacing: 70px;
+    left: 329px;
+    top: 52px; }
+  .header .svg1 {
+    position: absolute;
+    top: 52px;
+    left: 147px; }
+  .header .svg2 {
+    position: absolute;
+    top: 52px;
+    left: 134px; }
+  .header .tel {
+    font-size: 20px;
+    right: 129px;
+    top: 49px; }
+  .header .tel_nad {
+    font-size: 15px;
+    right: 129px;
+    top: 81px; }
+
+p {
+  display: inline-block; }
+
+.sort {
+  font-family: 'Montserrat';
+  color: black; }
+  .sort .price {
+    display: inline-block;
+    position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 51px; }
+  .sort .age {
+    display: inline-block;
+    margin-left: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+  .sort .sortby {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold; }
+
+.conteiner {
+  width: 1170px;
+  margin: 0px auto; }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 380px);
+  grid-template-rows: repeat(2, 521px);
+  position: relative;
+  column-gap: 21px;
+  row-gap: 29px; }
+  .grid .grid_items {
+    align-items: center;
+    border-radius: 10px;
+    justify-items: center;
+    background: #F3F3F3; }
+  .grid .catname {
+    position: relative;
+    width: 195px;
+    height: 29px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    left: 29px; }
+  .grid .blu {
+    display: block;
+    position: relative;
+    width: 4px;
+    height: 26px;
+    left: 29px;
+    background: #6EBBD3; }
+  .grid .okras {
+    position: relative;
+    width: 89px;
+    height: 19px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 15px;
+    top: -40px;
+    left: 47px; }
+  .grid .mes {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    top: -53px;
+    left: 69px; }
+  .grid .vozrast {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    top: -38px;
+    left: 17px; }
+  .grid .lapi {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    top: -53px;
+    left: 60px; }
+  .grid .kolvolap {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    top: -38px;
+    left: 28px; }
+  .grid .catprice {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    font-weight: bold;
+    left: 20px;
+    top: -50px; }
+  .grid .heart {
+    z-index: 1;
+    position: relative;
+    bottom: 80%;
+    left: 35%; }
+  .grid .heartn {
+    z-index: 1;
+    position: relative;
+    bottom: 80%;
+    left: 35%; }
+  .grid .skidka {
+    position: absolute;
+    width: 78px;
+    height: 39px;
+    background: #E62D2D;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding: 10px 18px;
+    left: 56px;
+    top: 43px; }
+  .grid .kupit {
+    position: relative;
+    width: 380px;
+    height: 65px;
+    background: #6EBBD3;
+    border-radius: 0px 0 10px 10px;
+    top: -64px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding: 20px; }
+  .grid .prodan {
+    position: relative;
+    width: 380px;
+    height: 65px;
+    background: #000000;
+    border-radius: 0px 0 10px 10px;
+    top: -64px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding: 20px; }
+
+.button {
+  position: relative;
+  border: 1px solid #6e6868;
+  width: 380px;
+  height: 65px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 65px;
+  left: 37%;
+  font-family: 'Montserrat', sans-serif;
+  top: 68px;
+  color: black;
+  background: #F3F3F3;
+  font-weight: bold; }
+
+.low {
+  width: 1180px;
+  height: 312px;
+  background: #1F2021;
+  top: 107px;
+  position: relative; }
+  .low .h1low {
+    left: 80px;
+    top: 83px;
+    color: white;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: bold; }
+  .low .h2low {
+    left: 79px;
+    top: 60px;
+    color: white;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    width: 401px; }
+  .low .inputlow {
+    position: relative;
+    width: 300px;
+    height: 65px;
+    left: 534px;
+    top: -105px;
+    border-radius: 10px;
+    background: #FFFFFF; }
+  .low .inputlow::placeholder {
+    font-size: 14px;
+    margin-left: 33px; }
+  .low .butlow {
+    position: relative;
+    width: 250px;
+    height: 65px;
+    left: 550px;
+    top: -105px;
+    background: #6EBBD3;
+    border-radius: 10px; }
+  .low .plow {
+    position: relative;
+    left: 5px;
+    top: -40px;
+    width: 181px;
+    height: 17px;
+    border-radius: 10px;
+    font-size: 14px;
+    line-height: 17px;
+    color: white; }
+  .low .galka {
+    position: absolute;
+    left: 538px;
+    top: 173px;
+    background-color: #6EBBD3; }
+
+/*# sourceMappingURL=911.css.map */
